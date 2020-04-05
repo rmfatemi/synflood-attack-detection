@@ -55,5 +55,4 @@ development. In figure below, you can see a sample of running SYN Flood
 attack on the victim machine.
 
 In the output, we log the system behaviour every 3 seconds. If an attack is
-detected, the system outputs the time of the attack as well as it’s source. Below,
-you can see a part of a sample output.
+detected, the system outputs the time of the attack as well as it’s source.
