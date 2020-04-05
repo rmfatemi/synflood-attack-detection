@@ -15,7 +15,7 @@ never arrives, and the victim server eventually times out. If the attacker sends
 SYN requests often enough, the victim server’s available resources for setting up
 a connection will be consumed waiting for these bogus ACKs. These resources
 are usually low in number, so relatively few bogus SYN requests can create a
-DoS event
+DoS event.
 
 # List of proposed features
 
@@ -46,7 +46,7 @@ program. It is able to forge or decode packets of a wide number of protocols,
 send them on the wire, capture them, match requests and replies, and much
 more. Scapy can easily handle most classical tasks like scanning, tracerouting,
 probing, unit tests, attacks or network discovery. It can replace hping, arpspoof,
-arp-sk, arping, p0f and even some parts of Nmap, tcpdump, and tshark).
+arp-sk, arping, p0f and even some parts of Nmap, tcpdump, and tshark.
 
 In order to test the detection algorithm, I used Kali Metasploit framework.
 The Metasploit Project is a computer security project that provides information
